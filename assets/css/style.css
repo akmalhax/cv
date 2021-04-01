@@ -1,0 +1,192 @@
+/***
+ *
+* Author : Akmal Dev
+* LICENSE : MIT
+**/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+ body{
+  font-family: 'Londrina Solid', cursive;
+}
+
+body {
+  background: #dadada;
+}
+
+.nav {
+  background-color: #fff;
+  margin-top: -1.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom: 0px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #fff, #fff, #fff);
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: hsl(224, 87%, 54%);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron > img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.text-author {
+  font-size: 1.70rem;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.text-author > span > i {
+  font-size: 15px;
+  color: #f9f9f9;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #5393f1;
+}
+
+.profession {
+  width: 9rem;
+  padding: 5px;
+  color: #000;
+  background-color: #DEE4E8ff;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: rgb(32, 59, 218);
+}
+
+.content {
+  background-color: #f9f9f9;
+  text-align: justify;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.content-title {
+  font-size: 2rem;
+  padding-top: 1.25rem;
+}
+
+.divider {
+  border: solid 1px black;
+  width: 3rem;
+  height: 7px;
+  border-color: #F4B081ff;
+  background-color: #F4B081ff;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-top: 15px;
+}
+
+.divider-x {
+  border: solid 1px black;
+  width: 6rem;
+  height: 7px;
+  border-color: #304CFDff;
+  background-color: #304CFDff;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: -0.45rem;
+  margin-left: 3.04rem;
+  margin-bottom: 1rem;
+}
+
+.text-desc {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.text-desc >div {
+  font-weight: bold;
+}
+
+.img-svg {
+  width: 2rem;
+}
+
+.text-desc > p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer {
+  color: #304CFDff;
+  font-weight: bold;
+}
+
+.icon-svg {
+  width: 1.5rem;
+}
+
+.icon-svg-md {
+  width: 1.5rem;
+  margin-top: -9px;
+  margin-right: 8px;
+}
+
+.text-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text-title > div > img {
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.text-title > p {
+  margin-left: 1.70rem;
+  margin-right: 1.70rem;
+  font-weight: normal;
+}
+
+.card {
+  border-color: #f9f9f9;
+  background: #f9f9f9;
+}
+
+.card-title {
+  margin-left: -1rem;
+}
+
+.card-text {
+  margin-left: -1rem;
+}
+
+.h-img {
+  height: 100px;
+}
+
+textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus, [type=text].form-control:focus, [type=password].form-control:focus, [type=email].form-control:focus, [type=tel].form-control:focus, [contenteditable].form-control:focus {
+  box-shadow: inset 0 0 0 #ddd;
+}
+
+.border-0 {
+  border: 0;
+  border-radius: 7px;
+}
